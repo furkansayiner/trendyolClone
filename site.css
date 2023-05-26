@@ -1,0 +1,350 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+}
+
+.rigtop {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.rigtop a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: small;
+  color: gray;
+}
+
+.container-bar{
+  text-align: center;
+  display: flex;
+  
+}
+#logo{
+  height: 60px; 
+  margin-left: 200px ;
+  margin-top: 30px; 
+margin-right: 20px;
+}
+
+.search{
+  width: 500px;
+  height: 30px;
+  padding: 5px ;
+  border: 5px;
+  border-radius: 5px ;
+  background-color: rgba(128, 128, 128, 0.21);
+  color: black;
+  /* flex: 1; */
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-left: 130px;
+}
+
+.kullanici {
+  display: flex;
+  margin-top: 45px;
+  margin-left: 130px;
+  margin-right: 60px; 
+  
+  
+}
+.kullanici a{
+  text-decoration: none;
+  color: black;
+  font-weight: 650;
+  font-size: small;
+  margin-right: 50px ;
+  
+}
+.container-category a{
+  text-decoration: none;
+  color: #000;
+  margin-right: 30px;
+  font-size: small;
+  font-weight: 645;
+}
+
+.container-category{
+  margin-left: 220px;
+}
+.direction {
+  margin-left: 170px;
+  display: flex;
+}
+
+.direction a{
+  color: #000;
+  text-decoration: none;
+  margin-right: 25px;
+  display: inline-block;
+  font-size: smaller;
+  font-weight: normal;
+}
+.direction p{
+  position: relative;
+  bottom: 18px;
+  right: 10px;
+  color: orange;
+  font-weight: 700;
+}
+.container-big{
+  border: 2px groove white;
+  height: 800px;
+  width: 920px;
+  margin-left: 170px;
+}
+.big-photo img{
+  height: 500px;
+  width:400px;
+}
+.as{
+  display: flex;
+  position: relative;
+  bottom: 480px;
+  left: 460px;
+  font-size: x-small;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+.as a{
+  text-decoration: none;
+  background-color: rgba(255, 166, 0, 0.105);
+  color: orange;
+  font-weight: 500;
+  
+  
+}
+#puma{
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: medium;
+  font-size: 25px;
+}
+.title{
+  position: relative;
+  bottom: 500px;
+  left: 460px;
+  margin:auto;
+}
+#sat{
+  font-size: small;
+  }
+.title a{
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.695) ;
+}
+#money{
+  color: rgb(255, 136, 0);
+  font-weight: 645;
+  font-size: x-large;
+  margin-top: 70px;
+  
+}
+.title hr{
+  margin-right: 1000px;
+  margin-left: 20px;
+}
+.container-box{
+  display: flex;
+}
+.container-box div{
+  margin: 5px;
+}
+.box1{
+  color:white; 
+  width: 70px;
+  height: 100px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 480px;
+  left: 470px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+  
+}
+.box2{
+  color:white; 
+  width: 70px;
+  height: 100px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 480px;
+  left: 470px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+  
+
+}
+.box3{
+  color:white; 
+  width: 70px;
+  height: 100px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 480px;
+  left: 470px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+}
+.box4{
+  color:white; 
+  width: 70px;
+  height: 100px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 480px;
+  left: 470px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+}
+.box5{
+  color:white; 
+  width: 70px;
+  height: 100px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 480px;
+  left: 470px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+}
+.mini-box{
+ display: flex;
+ position: relative;
+ 
+
+}
+.mini{
+  width: 20px;
+  height: 20px;
+  border: 2px groove white;
+  position: relative;
+  border-radius: 5px ;
+  bottom: 350px;
+  left: 8px;
+  font-size: small;
+  
+}
+#beden{
+  position: relative;
+  bottom: 380px;
+  left: 65px;
+  font-size: smaller;
+  font-weight: 600;
+}
+
+
+.add-to-cart{
+  width: 340px;
+  height: 50px;
+  position: relative;
+  bottom: 400px;
+  left: 480px;
+  color: white;
+  background-color: rgb(255, 119, 0);
+  border: 1px groove white;
+  border-radius: 5px;
+  font-size: large;
+}
+.heart{
+  position: relative;
+  bottom: 395px;
+  left: 500px;
+  width: 60px;
+  height: 55px;
+  font-size: 30px;
+  border-radius: 6px;
+  border: 1px groove rgba(0, 0, 0, 0.122);
+  color: gray;
+  background-color: rgb(255, 255, 255)
+}
+.takip{
+  color:white; 
+  width: 180px;
+  height: 200px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 945px;
+  left: 970px;
+  border-radius: 10px ;
+  margin: 15px;
+  
+}
+.boxes a {
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.599);
+  font-weight: 600;
+  font-size: small;
+  position: relative;
+  left: 25px;
+  top: 20px;
+  font-weight: 700;
+  
+}
+
+.add-to-follow{
+  width: 140px;
+  height: 25px;
+  position: relative;
+  top: 30px;
+  left: 25px;
+  color: gray;
+  background-color: white;
+  border: 1px  groove  rgba(0, 0, 0, 0.319);
+  border-radius: 4px;
+  font-weight: 600;
+}
+.fa-shop {
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+.fa-comment {
+  position: relative;
+  top: 40px;
+  left: 15px;
+}
+
+.diger {
+  /* color:white;  */
+  width: 180px;
+  height: 300px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 945px;
+  left: 970px;
+  border-radius: 10px ;
+  margin: 15px;
+}
+
+.saticilar{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: small;
+  color: rgba(0, 0, 255, 0.596);
+  position: relative;
+  left: 10px;
+}
+
+.kargo-box{
+  width: 80px;
+  height: 20px;
+  border: 1px groove black;
+  position: relative;
+  border-radius: 5px ;
+  bottom: 25px;
+  left: 20px;
+  font-size: small;
+  
+}
