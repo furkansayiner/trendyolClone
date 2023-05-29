@@ -93,8 +93,8 @@ margin-right: 20px;
 }
 .container-big{
   border: 2px groove white;
-  height: 800px;
-  width: 920px;
+  height: 900px;
+  width: 980px;
   margin-left: 170px;
 }
 .big-photo img{
@@ -145,6 +145,24 @@ margin-right: 20px;
   font-size: x-large;
   margin-top: 70px;
   
+}
+.star{
+  color: rgb(130, 128, 128);
+    font-size: 12px;
+  
+}
+.star .fa-star{
+  color: rgb(254, 194, 83);
+}
+.bank{
+  background-color: rgb(249, 233, 233);
+    color: rgb(243, 81, 41);
+    font-size: 12px;
+    margin-left: 30px;
+    display: block;
+    width:242px;
+    padding:2px;
+    border-radius: 5px;
 }
 .title hr{
   margin-right: 1000px;
@@ -222,20 +240,32 @@ margin-right: 20px;
 .mini-box{
  display: flex;
  position: relative;
- 
 
 }
+
 .mini{
   width: 20px;
   height: 20px;
-  border: 2px groove white;
+  border: solid 2px #f27a1a;
+  padding: 4px 9px 3px; ;
   position: relative;
-  border-radius: 5px ;
+  border-radius: 6px ;
   bottom: 350px;
-  left: 8px;
-  font-size: small;
+ background-color: #fffaf5b3;
+  font-size: 13px;
+  color: #000;
   
 }
+.time{
+    display: flex;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+
+
 #beden{
   position: relative;
   bottom: 380px;
@@ -271,11 +301,11 @@ margin-right: 20px;
 }
 .takip{
   color:white; 
-  width: 180px;
-  height: 200px;
+  width: 200px;
+  height: 180px;
   border: 2px groove white;
   position: relative;
-  bottom: 945px;
+  bottom: 1025px;
   left: 970px;
   border-radius: 10px ;
   margin: 15px;
@@ -283,16 +313,21 @@ margin-right: 20px;
 }
 .boxes a {
   text-decoration: none;
-  color: rgba(0, 0, 255, 0.599);
-  font-weight: 600;
-  font-size: small;
+  color: #4d8ee1;
+  /* font-family: source_sans_prosemibold,serif; */
+  font-weight: 200;
+  font-size: 14px;
   position: relative;
-  left: 25px;
+  left: 15px;
   top: 20px;
   font-weight: 700;
-  
+  }
+.boxes img{
+  width: 15px;
+  position: relative;
+  top: 22px;
+  left: 16px;
 }
-
 .add-to-follow{
   width: 140px;
   height: 25px;
@@ -317,34 +352,140 @@ margin-right: 20px;
 }
 
 .diger {
-  /* color:white;  */
-  width: 180px;
-  height: 300px;
+  /* color: gray;  */
+  width: 200px;
+  height: 320px;
   border: 2px groove white;
   position: relative;
-  bottom: 945px;
+  bottom: 1020px;
   left: 970px;
   border-radius: 10px ;
   margin: 15px;
+  
 }
 
 .saticilar{
   text-decoration: none;
-  font-weight: 600;
-  font-size: small;
-  color: rgba(0, 0, 255, 0.596);
+  /* font-weight: 600; */
+  font-size: 12px;
+  color: #4d8ee1;
+  font-family:source_sans_prosemibold,serif; ;
   position: relative;
   left: 10px;
+  
 }
 
 .kargo-box{
-  width: 80px;
-  height: 20px;
+  width: 75px;
+  height: 17px;
   border: 1px groove black;
   position: relative;
   border-radius: 5px ;
-  bottom: 25px;
-  left: 20px;
-  font-size: small;
+  bottom: 23px;
+  left: 13px;
+  font-size: 11px;
+  border-radius: 4px;
+  color: #666;
+  font-family: source_sans_prosemibold,serif; 
+  margin-right: 5px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.dik{
+  width: 1px;
+  height: 600px;
+  background-color: gray;
+ position: relative;
+ right: 550px;
+ bottom: 390px;
+ 
   
+}
+.container-boxx{
+  
+ display: flex;
+ margin-left: 40px;
+ 
+}
+.container-boxx div{
+   margin: 5px; 
+}
+
+.boxx1{
+  color:white; 
+  width: 120px;
+  height: 80px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 600px;
+  right: 980px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+
+}
+.boxx2{
+  color:white; 
+  width: 120px;
+  height: 80px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 600px;
+  right: 970px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+}
+.boxx3{
+  color:white; 
+  width: 120px;
+  height: 80px;
+  border: 2px groove white;
+  position: relative;
+  bottom: 600px;
+  right: 960px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+}
+.boxx4{
+  color:white; 
+  width: auto;
+  height: 100%;
+  border: 2px groove white;
+  position: relative;
+  bottom: 600px;
+  right: 950px;
+  border-radius: 10px ;
+  background-image: url("images/1_org_zoom(1).jpg");
+  background-size: cover;
+}
+#line{
+  width: 500px;
+  position: relative;
+  bottom: 380px;
+  left: 210px;
+}
+
+.bilgi{
+  position: relative;
+  bottom: 470px;
+  right: 500px;
+  white-space: nowrap;
+  
+}
+.ozellik li{
+  
+  font-size: 12px;
+  line-height: 28px;
+  color: #7b7878;
+}
+.ozellik h6{
+  font-size: px;
+  font-weight: 600;
+  position: relative;
+
+  top: 25px;
+  right: 12px;
 }
