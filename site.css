@@ -176,8 +176,8 @@ margin-right: 20px;
 }
 .box1{
   color:white; 
-  width: 70px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px groove white;
   position: relative;
   bottom: 480px;
@@ -189,8 +189,8 @@ margin-right: 20px;
 }
 .box2{
   color:white; 
-  width: 70px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px groove white;
   position: relative;
   bottom: 480px;
@@ -203,8 +203,8 @@ margin-right: 20px;
 }
 .box3{
   color:white; 
-  width: 70px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px groove white;
   position: relative;
   bottom: 480px;
@@ -215,8 +215,8 @@ margin-right: 20px;
 }
 .box4{
   color:white; 
-  width: 70px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px groove white;
   position: relative;
   bottom: 480px;
@@ -227,8 +227,8 @@ margin-right: 20px;
 }
 .box5{
   color:white; 
-  width: 70px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px groove white;
   position: relative;
   bottom: 480px;
@@ -250,7 +250,8 @@ margin-right: 20px;
   padding: 4px 9px 3px; ;
   position: relative;
   border-radius: 6px ;
-  bottom: 350px;
+  bottom: 380px;
+  left: 130px;
  background-color: #fffaf5b3;
   font-size: 13px;
   color: #000;
@@ -268,8 +269,8 @@ margin-right: 20px;
 
 #beden{
   position: relative;
-  bottom: 380px;
-  left: 65px;
+  bottom: 420px;
+  left: 185px;
   font-size: smaller;
   font-weight: 600;
 }
@@ -406,57 +407,60 @@ margin-right: 20px;
   
  display: flex;
  margin-left: 40px;
+
  
 }
 .container-boxx div{
    margin: 5px; 
+   
 }
 
 .boxx1{
   color:white; 
-  width: 120px;
-  height: 80px;
-  border: 2px groove white;
+  width: 300px;
+  height: 70px;
+  border: 1px double rgba(223, 222, 222, 0.971);
   position: relative;
-  bottom: 600px;
+  bottom: 160px;
   right: 980px;
   border-radius: 10px ;
   background-image: url("images/1_org_zoom(1).jpg");
-  background-size: cover;
+   background-size: cover; 
+  /* object-fit: cover;  */
 
 }
 .boxx2{
   color:white; 
-  width: 120px;
-  height: 80px;
-  border: 2px groove white;
+  width: 300px;
+  height: 70px;
+  border: 1px double rgba(223, 222, 222, 0.971);
   position: relative;
-  bottom: 600px;
-  right: 970px;
+  bottom: 160px;
+  right: 980px;
   border-radius: 10px ;
   background-image: url("images/1_org_zoom(1).jpg");
   background-size: cover;
 }
 .boxx3{
   color:white; 
-  width: 120px;
-  height: 80px;
-  border: 2px groove white;
+  width: 300px;
+  height: 70px;
+  border: 1px double rgba(223, 222, 222, 0.971);
   position: relative;
-  bottom: 600px;
-  right: 960px;
+  bottom: 160px;
+  right: 980px;
   border-radius: 10px ;
   background-image: url("images/1_org_zoom(1).jpg");
   background-size: cover;
 }
 .boxx4{
   color:white; 
-  width: auto;
-  height: 100%;
-  border: 2px groove white;
+  width: 300px;
+  height: 70px;
+  border: 1px double rgba(223, 222, 222, 0.971);
   position: relative;
-  bottom: 600px;
-  right: 950px;
+  bottom: 160px;
+  right: 980px;
   border-radius: 10px ;
   background-image: url("images/1_org_zoom(1).jpg");
   background-size: cover;
@@ -468,24 +472,17 @@ margin-right: 20px;
   left: 210px;
 }
 
-.bilgi{
+.ozellik{
   position: relative;
-  bottom: 470px;
   right: 500px;
   white-space: nowrap;
-  
-}
-.ozellik li{
-  
+  color: #333;
   font-size: 12px;
   line-height: 28px;
-  color: #7b7878;
+  padding-left: 15px;
 }
-.ozellik h6{
-  font-size: px;
-  font-weight: 600;
+.bilgi h6{
   position: relative;
-
-  top: 25px;
-  right: 12px;
+  right: 490px;
+  top: 20px;
 }
